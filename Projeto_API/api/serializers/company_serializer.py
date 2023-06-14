@@ -3,7 +3,8 @@ from django.db import models
 from django.urls import reverse
 from ..models import Company
 
+
 class CompanySerializer(serializers.ModelSerializer):
-  class Meta:
-    model = Company
-    fields = '__all__'
+    class Meta:
+        model = Company
+        fields = '__all__'
